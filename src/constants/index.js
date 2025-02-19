@@ -3,26 +3,15 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+ 
   carrent,
   jobit,
   tripguide,
-  threejs,
+
+  clock,
+  crown,
+  eduction,
+  schedule,
 } from "../assets";
 
 export const navLinks = [
@@ -39,132 +28,77 @@ export const navLinks = [
     title: "Contact",
   },
 ];
-
 const services = [
   {
-    title: "Web Developer",
+    title: "FundedNext",
     icon: web,
+    link: "https://drive.google.com/file/d/1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO/view?usp=sharing",
   },
   {
-    title: "React Native Developer",
+    title: "FTMO",
     icon: mobile,
+    link: "https://drive.google.com/file/d/1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO/view?usp=sharing",
   },
   {
-    title: "Backend Developer",
+    title: "Goat Funded Trader",
     icon: backend,
+    link: "https://drive.google.com/file/d/1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO/view?usp=sharing",
   },
   {
-    title: "Content Creator",
+    title: "Funding Pip",
     icon: creator,
+    link: "https://drive.google.com/file/d/1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO/view?usp=sharing",
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "One Month Plan",
+    icon: clock,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Cost: $30",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Access to daily forex signals for major currency pairs.",
+      "Risk management guidance for each trade.",
+      "Support via Telegram for trade clarifications.",
+      "Weekly market analysis reports.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Three Months Plan",
+    icon: schedule,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Cost: $70 (Save $30)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "All benefits from the One Month Plan.",
+      "Premium signals with higher accuracy.",
+      "Access to a members-only trading community.",
+      "Bi-weekly live Q&A sessions on market trends.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "VIP Lifetime Plan",
+    icon: crown,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Cost: $250 (One-time Payment)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lifetime access to all premium signals and updates.",
+      "Direct mentorship via private chat and calls.",
+      "Advanced trading strategy courses.",
+      "Full access to all trading tools and EAs.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "One-on-One Mentorship (Coming Soon)",
+    icon: eduction,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Launching Soon",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Personalized forex training sessions.",
+      "Live market analysis and trading support.",
+      "Customized trading strategies for your style.",
+      "Exclusive access to in-depth risk management coaching.",
     ],
   },
 ];
@@ -262,4 +196,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services,  experiences, testimonials, projects };

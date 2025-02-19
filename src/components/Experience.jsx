@@ -26,7 +26,7 @@ const ExperienceCard = ({ experience }) => {
         <div className='flex justify-center items-center w-full h-full'>
           <img
             src={experience.icon}
-            alt={experience.company_name}
+           
             className='w-[60%] h-[60%] object-contain'
           />
         </div>
@@ -38,7 +38,7 @@ const ExperienceCard = ({ experience }) => {
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
-          {experience.company_name}
+          {/* {experience.company_name} */}
         </p>
       </div>
 
@@ -61,10 +61,11 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          What I have to offer 
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+        I've Got A Plan
+        That's Perfect For You.
         </h2>
       </motion.div>
 
