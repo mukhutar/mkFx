@@ -32,24 +32,25 @@ const services = [
   {
     title: "FundedNext",
     icon: web,
-    link: "https://drive.google.com/file/d/1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO/view?usp=sharing",
+    link: "https://drive.google.com/uc?export=view&id=1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO",
   },
   {
     title: "FTMO",
     icon: mobile,
-    link: "https://drive.google.com/file/d/1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO/view?usp=sharing",
+    link: "https://drive.google.com/uc?export=view&id=1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO",
   },
   {
     title: "Goat Funded Trader",
     icon: backend,
-    link: "https://drive.google.com/file/d/1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO/view?usp=sharing",
+    link: "https://drive.google.com/uc?export=view&id=1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO",
   },
   {
     title: "Funding Pip",
     icon: creator,
-    link: "https://drive.google.com/file/d/1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO/view?usp=sharing",
+    link: "https://drive.google.com/uc?export=view&id=1jhtbrMJal1mqYoEzNnsDcech9VNL_BwO",
   },
 ];
+
 
 
 const experiences = [
