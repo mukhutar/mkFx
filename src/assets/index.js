@@ -7,15 +7,15 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import clock from "./company/clock.png";
 import crown from "./company/crown.png";
 import eduction from "./company/education.png";
 import schedule from "./company/schedule.png";
+
+import payout from "./payout.jpg";
+import broker1 from "./broker1.png";
+import broker2 from "./broker2.png";
+import broker3 from "./broker3.png";
 
 export {
   logo,
@@ -26,11 +26,12 @@ export {
   github,
   menu,
   close,
-  carrent,
-  jobit,
-  tripguide,
   clock,
   crown,
   eduction,
   schedule,
+  payout,
+  broker1,
+  broker2, 
+  broker3 
 };

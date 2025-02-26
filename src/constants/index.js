@@ -3,25 +3,25 @@ import {
   backend,
   creator,
   web,
- 
-  carrent,
-  jobit,
-  tripguide,
+  payout,
 
   clock,
   crown,
   eduction,
   schedule,
+  broker1 ,
+  broker2,
+  broker3 
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Archivments",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Plans",
   },
   {
     id: "contact",
@@ -104,97 +104,53 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const brokers = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "XM",
+    description:
+      "A globally recognized forex broker offering tight spreads, fast execution, and multiple account types suited for all traders.",
+    referral_link: "https://www.xmglobal.com/referral?token=C3ISTO6TFLCw72foG2S5YA",
+    image: broker1, // Replace with actual path or URL
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Justmarkets",
+    description:
+      "A reliable forex broker with competitive spreads, multiple trading instruments, and excellent trading conditions for indices and forex pairs.",
+    referral_link: "https://one.exnesstrack.org/a/ocfxwi83hc",
+    image: broker2,
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Deriv",
+    description:
+      "A trusted broker for trading synthetic indices, forex, and commodities, known for its innovative trading platforms and flexible leverage options.",
+    referral_link: "https://one.exnesstrack.org/a/ocfxwi83hc",
+    image: broker3,
   },
 ];
+
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "fundednext",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+      "A reflection of hard work, smart decisions, and the power of perseverance. The market rewards those who stay committed, and this is just the beginning!🚀💰",
+
+    image: payout,
   },
   {
-    name: "Job IT",
+    name: "ftmo",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+      "This payout isn't just about the numbers—it's about the dedication, strategy, and resilience behind it. A well-earned milestone and a stepping stone to even greater success",
+    
+    image: payout,
   },
   {
-    name: "Trip Guide",
+    name: "funding pips",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+      "every trade executed, and every lesson learned has led to this reward. A true testament to patience, discipline, and consistency. The journey continues!🤑💰.",
+
+    image: payout,
   },
 ];
 
-export { services,  experiences, testimonials, projects };
+export { services,  experiences, brokers, projects };

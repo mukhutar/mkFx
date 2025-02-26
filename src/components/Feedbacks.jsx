@@ -4,41 +4,31 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { brokers } from "../constants";
 
-const FeedbackCard = ({
-  index,
-  testimonial,
-  name,
-  designation,
-  company,
-  image,
-}) => (
+const FeedbackCard = ({ index, name, description, referral_link, image }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
   >
-    <p className='text-white font-black text-[48px]'>"</p>
+    <div className='flex flex-col items-center text-center'>
+      <img src={image} alt={name} className='w-16 h-16 rounded-full object-cover mb-4' />
+      <p className='text-white font-bold text-[20px]'>{name}</p>
+      <p className='text-secondary text-[16px] mt-2'>{description}</p>
+      <a
+        href={referral_link}
+        target='_blank'
+        rel='noopener noreferrer'
+        className='mt-4 text-blue-300 font-semibold relative inline-block 
+             transition-transform transform hover:scale-105 
+             after:content-[""] after:absolute after:left-0 after:bottom-0 
+             after:w-full after:h-[2px] after:bg-blue-300 
+             after:scale-x-0 after:transition-transform after:duration-300 
+             hover:after:scale-x-100 hover:text-blue-400'
 
-    <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
-
-      <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
-          </p>
-          <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
-          </p>
-        </div>
-
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
-      </div>
+      >
+        Sign Up Here 
+      </a>
     </div>
   </motion.div>
 );
@@ -46,17 +36,14 @@ const FeedbackCard = ({
 const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
-      <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
-      >
+      <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <h2 className={styles.sectionHeadText}>Brokers</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+        {brokers.map((broker, index) => (
+          <FeedbackCard key={broker.name} index={index} {...broker} />
         ))}
       </div>
     </div>
