@@ -116,7 +116,7 @@ const brokers = [
     name: "Justmarkets",
     description:
       "A reliable forex broker with competitive spreads, multiple trading instruments, and excellent trading conditions for indices and forex pairs.",
-    referral_link: "https://one.exnesstrack.org/a/ocfxwi83hc",
+    referral_link: "https://one.justmarkets.link/a/sfjf205szt",
     image: broker2,
   },
   {

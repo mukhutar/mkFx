@@ -24,7 +24,7 @@ const FeedbackCard = ({ index, name, description, referral_link, image }) => (
              after:content-[""] after:absolute after:left-0 after:bottom-0 
              after:w-full after:h-[2px] after:bg-blue-300 
              after:scale-x-0 after:transition-transform after:duration-300 
-             hover:after:scale-x-100 hover:text-blue-400'
+             hover:after:scale-x-100 hover:text-blue-400 '
 
       >
         Sign Up Here 

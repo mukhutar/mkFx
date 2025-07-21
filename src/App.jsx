@@ -1,10 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
-
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works, StarsCanvas } from "./components";
+import { Toaster } from "react-hot-toast";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works,Footer, StarsCanvas } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
+     <Toaster position="top-center" reverseOrder={false} />
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
@@ -18,6 +19,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+         <Footer />
       </div>
     </BrowserRouter>
   );
